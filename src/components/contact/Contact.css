@@ -1,0 +1,18 @@
+.contact-center{
+  display: grid;
+  height: 80vh;
+  background: #F2F2F2;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+  "C C C C C C C C C C C C"
+  "F F F F F F F F F F F F"
+  ;
+}
+
+@media screen and (min-width: 800px) {
+  .contact-center{
+    grid-template-areas:
+    "F F F F F F C C C C C C"
+    ;
+  }
+}

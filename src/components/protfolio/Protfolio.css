@@ -1,0 +1,43 @@
+.protfolio-center {
+  display: flex;
+  flex-flow: column;
+  background: #fff;
+}
+.protfolio-category {
+  display: flex;
+  flex-flow: row;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+.protfolio-category button {
+  margin-right: 20px;
+}
+
+/* react protfolio project styling start here  */
+
+.protfolio-project{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.project-center {
+    border: 2px solid #F2F2F2;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+.project-center img{
+    width: 100%;
+}
+.project-center span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 800px){
+  .protfolio-project{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+}
+
+

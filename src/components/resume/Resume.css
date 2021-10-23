@@ -1,0 +1,122 @@
+.resume-about-center {
+  text-align: justify;
+}
+
+.resume-about {
+  padding: 5px;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+.resume-about p {
+  margin: 1rem;
+}
+/* resume-center section start */
+.build-resume-center {
+  display: flex;
+  flex-flow: column;
+  background: #fff;
+}
+
+.build-resume {
+  flex-basis: 100%;
+}
+
+.build-resume-inner {
+  display: flex;
+  flex-flow: row;
+  align-items: flex-start;
+}
+.build-resume-inner .icon {
+  color: #ffa500;
+  margin-right: 0.5rem;
+  padding: 0.2rem;
+}
+.build-resume-inner span {
+  font-size: 16px;
+  font-weight: 600;
+}
+.build-resume-inner p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.build-title {
+  display: flex;
+  align-items: center;
+}
+.build-title .icon {
+  color: #ffa500;
+  font-size: 30px;
+  padding: 0.3rem;
+  margin-right: 0.5rem;
+}
+.build-title span {
+  font-size: 20px;
+  font-weight: 600;
+}
+@media screen and (min-width: 800px) {
+  .build-resume-center {
+    display: flex;
+    flex-flow: row;
+    background: #fff;
+  }
+  .build-resume {
+    flex-basis: 50%;
+  }
+}
+/* resume-service-center section start  */
+.resume-service-center{
+  background: #F2F2F2;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 250px)
+}
+.resume-service{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background: #FFF;
+  margin: 1%;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.resume-service .icon{
+  color: #ffa500;
+}
+@media screen and (min-width: 800px) {
+  .resume-service-center{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 250px);
+  }
+}
+/* resume-skill-center section start  */
+
+.resume-skill-center {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 210px) ;
+}
+.resume-skill {
+  background: #FFF;
+  margin: 1%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.skill-inner-center {
+  display: flex;
+  flex-flow: row;
+}
+.skill-inner-center .icon {
+  color: #ffa500;
+  margin-right: 0.3rem;
+}
+
+@media screen and (min-width: 800px) {
+  .resume-skill-center{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 210px);
+  }
+}

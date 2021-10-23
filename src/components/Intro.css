@@ -1,0 +1,19 @@
+.intro-center {
+  background: #FFF;
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 350px;
+  grid-template-areas:
+    "P P P P P P P P P P P P"
+    "D D D D D D D D D D D D"
+    ;
+}
+
+@media screen and (min-width: 800px){
+  .intro-center{
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+    "D D D D D D P P P P P P"
+    ;
+  }
+}

@@ -1,0 +1,14 @@
+.intro-Data {
+  grid-area: D;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 800px) {
+  .intro-Data{
+    align-items: flex-start;
+  }
+}

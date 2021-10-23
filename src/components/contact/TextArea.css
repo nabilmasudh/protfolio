@@ -1,0 +1,8 @@
+.text-area textarea {
+  width: 100%;
+  padding: 20px;
+  margin: 1rem 0;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}

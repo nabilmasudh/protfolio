@@ -1,0 +1,9 @@
+.intro-photo {
+  grid-area: P;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-photo img{
+  height: 350px;
+}
