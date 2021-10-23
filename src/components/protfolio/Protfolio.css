@@ -1,43 +1,56 @@
 .protfolio-center {
   display: flex;
   flex-flow: column;
-  background: #fff;
+  background: #F2F2F2;
 }
+
+/* protfolio category Styling start here  */
+
 .protfolio-category {
   display: flex;
   flex-flow: row;
+  margin: 0.5%;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
   font-size: 20px;
-  padding: 5px;
-  margin: 5px;
+  background: #FFF;
 }
 .protfolio-category button {
-  margin-right: 20px;
+  margin-right: 1rem;
 }
 
 /* react protfolio project styling start here  */
 
-.protfolio-project{
+.project-center {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
-.project-center {
-    border: 2px solid #F2F2F2;
-    padding: 1rem;
-    border-radius: 0.3rem;
+.project-inner {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  background: #FFF;
+  margin: 1%;
+  padding: 1rem;
+  border-radius: 5px;
 }
-.project-center img{
-    width: 100%;
+.project-inner img {
+  width: 100%;
 }
-.project-center span{
-    font-size: 18px;
-    font-weight: 600;
+.project-inner span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.project-inner-button button{
+  margin-right: 1rem;
+}
+.project-inner-button{
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 800px){
-  .protfolio-project{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+@media screen and (min-width: 800px) {
+  .project-center {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-}
-
-

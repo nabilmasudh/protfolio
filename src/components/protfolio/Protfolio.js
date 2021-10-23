@@ -18,7 +18,6 @@ export default function Protfolio() {
     setMenuItems(newItems)
   }
 
-
     return (
       <>
         <Title title="Protfolio" />
